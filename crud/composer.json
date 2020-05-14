@@ -1,0 +1,26 @@
+{
+    "authors": [
+        {
+            "name": "Jorge Davila",
+            "email": "iscjorgedavila@gmail.com"
+        }
+    ],
+    "description": "Crud sencillo con PHP 7.0, coomposer y AJAX",
+    "license": "free to use",
+    "name": "cypher/crud",
+    "autoload": {
+        "psr-4": {
+            "Core\\":"core/",
+            "DB\\": "core/Http/DB",
+            "Model\\": "core/Http/Models"
+        },
+        "files": [
+            "core/Helpers/helpers.php"
+        ]
+    },
+    "type": "project",
+    "require": {
+        "ext-pdo": "*",
+        "ext-json": "*"
+    }
+}

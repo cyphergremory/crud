@@ -7,3 +7,5 @@ Para usarlos simplemente descargalo y descomprimelo en tu carpeta www o htdocs.
 
 -Crea la base de datos y la tabla empleados y listo.
 
+Nota:Este proyecto usa composer para realizar el autoload por lo que debes asegurarte de tenerlo en tu sistema. Revisa la siguiente liga: 
+https://getcomposer.org/download/
